@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angelo Tarzona</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    /* Header section with background image */
+    header {
+      background-image: url('img/team-research/tarzona/use2.png');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color: #fff;
+      min-height: 400px;
+    }
+    /* Navigation Container */
+    .nav-container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo h2 {
+      font-size: 2rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ddd;
+    }
+    /* Slogan & Links Overlay (centered vertically and horizontally) */
+    .slogan-container {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.4); /* Semi-transparent background for readability */
+      border-radius: 5px;
+      white-space: nowrap;  /* Prevent text from wrapping */
+    }
+    .slogan-container h1 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    .slogan-container .links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background 0.3s, color 0.3s;
+    }
+    .slogan-container .links a:hover {
+      background: #fff;
+      color: #000;
+    }
+    /* Content Sections */
+    .content {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .content h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #007BFF;
+    }
+    .content p {
+      margin-bottom: 20px;
+    }
+    /* Figures styled like your lab snippet */
+    figure {
+      text-align: left;
+      margin: 20px 0;
+    }
+    figure img {
+      float: left;
+      margin-right: 10px;
+      width: 500px;
+      height: 300px;
+      object-fit: contain; /* Ensures the entire image is visible */
+    }
+    figcaption {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 5px;
+      clear: both;
+    }
+    .clear {
+      clear: both;
+    }
+    hr {
+      border: none;
+      border-top: 2px solid #ccc;
+      margin: 40px auto;
+      width: 80%;
+    }
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    /* Responsive Adjustments */
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+      figure img {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0 auto;
+        display: block;
+      }
+      .slogan-container {
+        width: auto; /* Allow container to adjust */
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header with background image and overlayed slogan -->
+  <header>
+    <div class="nav-container">
+      <!-- Logo -->
+      <div class="logo">
+        <h2>Angelo Tarzona</h2>
+      </div>
+      <!-- Navigation Panel -->
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#papers">Papers</a></li>
+          <li><a href="#fieldwork">FieldWork</a></li>
+          <li><a href="#outreach">Outreach</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Slogan and Links -->
+    <div class="slogan-container">
+      <h1>Visualizing Geophysical Discoveries Through Geospatial Techniques</h1>
+      <div class="links">
+        <!-- Replace with your actual URLs -->
+        <a href="mailto:your-email@example.com">Email</a>
+        <a href="path/to/your/CV.pdf" target="_blank">CV</a>
+        <a href="https://orcid.org/your-orcid" target="_blank">Resume</a>
+		<a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+        <a href="https://orcid.org/your-orcid" target="_blank">ORCID</a>
+
+      </div>
+    </div>
+  </header>
+
+  <hr>
+
+  <!-- About Me Section -->
+  <section id="about" class="content">
+    <h2>About Me</h2>
+    <figure>
+      <img src="img/team-research/tarzona/Picture1.png" alt="GPR Survey">
+      <p>
+        My journey in geophysics began with the NSF-funded GeoPATHS Program, exposing me to seismic refraction, electrical resistivity, and Ground Penetrating Radar (GPR). This experience at the Susquehanna Shale Hills Critical Zone Observatory inspired me to major in Earth Sciences and sparked my passion for using geophysical tools to benefit communities.
+      </p>
+      <figcaption>Figure 1: GPR Survey at Mt. Tabor Cemetery.</figcaption>
+    </figure>
+    <div class="clear"></div>
+    <p>
+      Later, I joined Stanford Earth’s SURGE Program to analyze archival airborne radar sounding data from East Antarctica. Comparing these with NASA/NSF Operation IceBridge observations, I now focus on assessing the stability of the Antarctic Ice Sheet and Ice Shelves as a Ph.D. candidate.
+    </p>
+  </section>
+
+  <hr>
+
+  <!-- Research Section -->
+  <section id="research" class="content">
+    <h2>Research</h2>
+    <figure>
+      <img src="img/team-research/tarzona/3MT.png" alt="Archival Radar Data">
+      <p>
+        I work with historic airborne radar data from the 1974–75 campaign by the Scott Polar Research Institute (SPRI), NSF, and TUD. These radargrams require careful repositioning and calibration. My research develops techniques to unlock the full potential of these datasets, revealing new insights into past glacial processes.
+      </p>
+      <figcaption>Figure 2: Archival radar data.</figcaption>
+    </figure>
+    <div class="clear"></div>
+    <p>
+      Calibration of these records helps us better understand glacial and subglacial evolution and climate change impacts.
+    </p>
+  </section>
+
+  <hr>
+
+  <!-- Papers Section -->
+  <section id="papers" class="content">
+    <h2>Papers</h2>
+    <p>List your publications or provide links to your research papers here.</p>
+  </section>
+
+  <hr>
+
+  <!-- FieldWork Section -->
+  <section id="fieldwork" class="content">
+    <h2>FieldWork</h2>
+    <p>Describe your field work experiences and projects here.</p>
+  </section>
+
+  <hr>
+
+  <!-- Outreach Section -->
+  <section id="outreach" class="content">
+    <h2>Outreach</h2>
+    <p>
+      Beyond research, I am passionate about science communication and community engagement. I collaborate with citizen scientists and organize events to support diverse communities, making geophysics accessible and impactful.
+    </p>
+  </section>
+
+  <hr>
+
+  <!-- Contact & CV Section -->
+  <section id="contact" class="content">
+    <h2>Contact &amp; CV</h2>
+    <ul>
+      <li><strong>Email:</strong> dtrzona@gatech.edu</li>
+      <li>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/angelotarzona" target="_blank">
+          https://www.linkedin.com/in/angelotarzona
+        </a>
+      </li>
+      <li>
+        <strong>CV:</strong>
+        <a href="pdf/CV_AngeloTarzona_2024.pdf" target="_blank">Click Here</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© Copyright 2021. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
